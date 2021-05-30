@@ -1,5 +1,8 @@
 /*package whatever //do not write package name here */
 
+//RotateArray.java name is given just to identify the problem u will have to change the class name 
+
+
 import java.util.*;
 import java.lang.*;
 import java.io.*;
