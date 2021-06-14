@@ -22,10 +22,12 @@ class Solution
         
         
         // now the wroking will happen as follows
+        // value of open must be less than n
         if(open < n)
         {
             helper(res,s+"(",open+1,close,n);
         }
+        // and value of the close brackets must be smaller than open bracket in every essence 
         if(close < open)
         {
             helper(res,s+")",open,close+1,n);
